@@ -1,0 +1,26 @@
+# Instagram credentials & local session
+.env
+.env.*
+!.env.example
+session.json
+
+# Output results (personal profile data)
+not_following_back.txt
+not_following_back_details.txt
+fans.txt
+*.log
+
+# Python & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# macOS & IDE
+.DS_Store
+.idea/
+.vscode/
